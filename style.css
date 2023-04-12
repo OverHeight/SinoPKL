@@ -16,9 +16,6 @@ a{
 
 }
 
-li{
-    margin-bottom: 2rem;
-}
 
 @media only screen and (max-width: 570px) {
     .why{

@@ -11,18 +11,42 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm me-5 justify-content-end position-static">
-          <div class="d-flex">
-              <div class="p-2 m-3"><a href="#" class="fs-6 link-dark">Our Services</a></div>
-              <div class="p-2 m-3"><a href="#" class="fs-6 link-dark">Why Us</a></div>
-              <div class="p-2 m-3"><a href="#" class="fs-6 link-dark">Testimonial</a></div>
-              <div class="p-2 m-3"><a href="#" class="fs-6 link-dark">FAQ</a></div>
-              <button type="button" class="btn m-3 btn-success h-25">Register</button>
-          </div>
-      </nav>    
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: #F1F3FF" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BCR</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-5 ">
+                    <li class="nav-item">
+                        <a class="nav-link link-dark p-3" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark p-3" href="#why">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark p-3" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark p-3" href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn m-2 btn-success">Register</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </nav>
 
     <!-- main -->
-    <div class="container-fluid position-static" style="background-color:#F1F3FF">
+    <div class="container-fluid " style="background-color:#F1F3FF">
         <div class="row">
           <div class="col-sm align-content">
             <div class="m-2 p-5">
@@ -37,7 +61,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="services">
         <div class="row">
             <div class="col-sm">
                 <div class="m-2 p-3">
@@ -61,7 +85,7 @@
         </div>
     </div>
 
-    <div class="container-fluid position-static m-4">
+    <div class="container-fluid p-5" id="why">
         <h3>Why Us?</h3>
         <p class="mx-4">Mengapa harus pilih Binar Car Rental? </p>
         <div class="row">
@@ -88,7 +112,7 @@
         </div>
     </div>
 
-    <div class="container position-static mt-5">
+    <div class="container mt-5" id="testimonial">
         <div class="row">
             <div class="col-sm-12">
 
@@ -127,7 +151,7 @@
     </div>
 </div>
 
-<div class="container-fluid position-static m-3 mt-5">
+<div class="container-fluid mt-5">
         <div class="row text-center d-flex">
             <div class="col-sm">
                 <div class="border p-5 m-3 bg-primary rounded-3">
@@ -139,7 +163,7 @@
         </div>
     </div>
     
-    <div class="container position-static mt-4">
+    <div class="container mt-4" id="faq">
         <div class="row">
             <div class="col-sm col-md-6 mb-3">
                 <h4>Frequently Asked Question</h3>
@@ -165,7 +189,7 @@
         </div>
     </div>
 
-    <div class="container-fluid position-static p-5 mt-2">
+    <div class="container-fluid  p-5 mt-2">
         <div class="row">
             <div class="col-sm mb-5">
                 <p class="mb-3">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
