@@ -1,0 +1,28 @@
+*,
+html,
+body{
+    max-width: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container1{
+    position: absolute;
+    width: 100%;
+    background: #F1F3FF;
+
+}
+
+li{
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 570px) {
+    .why{
+        width: 75%;
+    }
+    
+}
